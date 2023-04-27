@@ -6,7 +6,7 @@ This repository is the Homebrew Tap for
 ## Install `cli-kintone` with Homebrew
 
 ```zsh
-brew install kintone/cli-kintone/cli-kintone
+brew install ahandsel/cli-kintone/cli-kintone
 ```
 
 ## Update `cli-kintone` with Homebrew
