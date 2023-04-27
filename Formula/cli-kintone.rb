@@ -1,9 +1,9 @@
 class CliKintone < Formula
   desc "CLI tool to import/export records to/from Kintone"
-  homepage "https://github.com/kintone/cli-kintone/blob/main/README.md"
-  url "https://github.com/kintone/cli-kintone/releases/download/v1.3.3/cli-kintone_v1.3.3_macos.zip"
-  sha256 "ef7d4cbb52cd6a4167507de3bbbb3962b79347c78816f7ef70f17bb712559964"
-  license "MIT License"
+  homepage "https://github.com/ahandsel/cli-kintone/blob/main/README.md"
+  url "https://github.com/ahandsel/cli-kintone/releases/download/v1.4.0/cli-kintone_v1.4.0_macos.zip"
+  sha256 "3b7e5c2fa7d22dffc758524e22439bbbcfc3ff8875940762f52b1071eb996c5a"
+  license "MIT"
 
   depends_on "@kintone/rest-api-client"
   depends_on "chalk"
