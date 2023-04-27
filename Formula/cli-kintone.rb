@@ -19,5 +19,6 @@ class CliKintone < Formula
   end
 
   test do
+    system "cli-kintone", "--version"
   end
 end
