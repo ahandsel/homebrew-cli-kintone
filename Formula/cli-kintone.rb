@@ -5,15 +5,6 @@ class CliKintone < Formula
   sha256 "3b7e5c2fa7d22dffc758524e22439bbbcfc3ff8875940762f52b1071eb996c5a"
   license "MIT"
 
-  depends_on "@kintone/rest-api-client"
-  depends_on "chalk"
-  depends_on "csv-parse"
-  depends_on "csv-stringify"
-  depends_on "https-proxy-agent"
-  depends_on "iconv-lite"
-  depends_on "inquirer"
-  depends_on "yargs"
-
   def install
     bin.install 'cli-kintone'
   end
