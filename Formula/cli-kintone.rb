@@ -15,7 +15,7 @@ class CliKintone < Formula
   depends_on "yargs"
 
   def install
-    system "./configure", *std_configure_args, "--disable-silent-rules"
+    bin.install 'cli-kintone'
   end
 
   test do
