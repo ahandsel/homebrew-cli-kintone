@@ -10,6 +10,6 @@ class CliKintone < Formula
   end
 
   test do
-    system "cli-kintone", "--version"
+    assert_equal "1.4.0", shell_output("cli-kintone --version").strip
   end
 end
