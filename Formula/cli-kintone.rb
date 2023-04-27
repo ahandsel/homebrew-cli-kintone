@@ -5,7 +5,14 @@ class CliKintone < Formula
   sha256 "ef7d4cbb52cd6a4167507de3bbbb3962b79347c78816f7ef70f17bb712559964"
   license "MIT License"
 
-  # depends_on "cmake" => :build
+  depends_on "@kintone/rest-api-client"
+  depends_on "chalk"
+  depends_on "csv-parse"
+  depends_on "csv-stringify"
+  depends_on "https-proxy-agent"
+  depends_on "iconv-lite"
+  depends_on "inquirer"
+  depends_on "yargs"
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
